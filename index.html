@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spiritual Counter App</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <h1>🌿 Spiritual Counter</h1>
+
+      <div class="counter" id="count">0</div>
+      <div class="cycle">Cycles: <span id="cycle">0</span></div>
+
+      <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+      </div>
+
+      <button onclick="increaseCount()">COUNT</button>
+      <button onclick="resetAll()">RESET</button>
+
+      <div class="settings">
+        <label>Max Count per Cycle</label>
+        <input type="number" id="maxCount" value="100" />
+
+        <label>Spiritual Goal (Cycles)</label>
+        <input type="number" id="goal" value="10" />
+      </div>
+
+      <div class="message" id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

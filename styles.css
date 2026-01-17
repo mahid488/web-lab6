@@ -1,0 +1,90 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+  margin: 0;
+}
+
+.app {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  border-radius: 15px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.counter {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.cycle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 15px;
+  margin: 10px 0;
+}
+
+.progress {
+  background: #00ffcc;
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #00ffcc;
+  color: #000;
+  font-weight: bold;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.settings {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.settings input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  min-height: 20px;
+  text-align: center;
+}
